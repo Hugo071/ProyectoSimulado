@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProyectoSimulado.Models;
+using ProyectoSimulado.Modelos.ViewModels;
 using System.Diagnostics;
 
-namespace ProyectoSimulado.Controllers
+namespace ProyectoSimulado.Areas.Inventario.Controllers
 {
+    [Area("Inventario")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
